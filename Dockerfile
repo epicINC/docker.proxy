@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:latest
 MAINTAINER S <docker@slightboy.net>
 
 RUN ulimit -n 1048576
